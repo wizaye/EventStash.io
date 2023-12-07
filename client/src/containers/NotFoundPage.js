@@ -12,7 +12,6 @@ const NotFoundPage = () => {
       height="100vh"
       textAlign="center"
     >
-      {/* Placeholder for your vector illustration */}
       <div style={{ marginBottom: '20px' }}>
         <img
           src="./error.svg"
