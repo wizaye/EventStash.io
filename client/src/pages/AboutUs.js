@@ -11,45 +11,50 @@ const AboutUs = () => {
         <Col lg={12} md={24} sm={24} order={2}>
           <div style={{ padding: '0 30px' }}>
             <div style={{ marginBottom: '60px' }}>
-              <Title level={2}>About Css3transition</Title>
-              <Paragraph>
-                I am Rahul Yaduvanshi, working at Css3 Transition since the last 3 years.
-                We provide top-notch solutions for your website or web application to make it
-                attractive and efficient by creating useful plugins that you need.
+              <Title level={2}>About Event Stash</Title>
+              <Paragraph style={{fontSize:18}}>
+              Event Stash marks their ambitious endeavor to transform the event management scene. This project aims to:
+Streamline Event Management: By introducing innovative features and user-friendly interfaces, Event Stash seeks to simplify and streamline the entire event management process.
+Enhance Attendee Experience: From registration to engagement, Event Stash prioritizes the attendee experience, aiming to make it more interactive and enjoyable.
+Promote Sustainability: In line with their core values, Event Stash incorporates sustainable practices into its design, minimizing environmental impact.
+</Paragraph>
+<Title level={2}>About Dev's</Title>
+              <Paragraph style={{fontSize:18}}>
+              Meet <b>Khizar</b>, <b>Vijay</b>, and <b>Lokesh</b> ,<br></br>A passionate trio of tech enthusiasts driven by a desire for positive change. Their team, thrives on innovative ideas and seeks to revolutionize the event management landscape with their groundbreaking Event Stash project.
               </Paragraph>
-              <Paragraph>
-                We are here to serve you next-level tutorials that are currently in trend to
-                match your expertise. Css3 transition is a learning website where you can find
-                high-quality content related to web development and tutorials about plugins.
-                We use HTML, HTML5, CSS, CSS3, jQuery, and JavaScript along with inspirational UI
-                design layouts created by professionals using Photoshop and Adobe Illustrator.
+              
+
+            <div style={{ marginBottom: '45px' }}>
+              <Title level={2}>Our Future Goal's</Title>
+              <Paragraph style={{fontSize:18}}>
+              <li>Include Payment GateWay</li>
+
+              </Paragraph>
+              <Paragraph style={{fontSize:18}}>
+              <li> AI-Driven Personalization</li>
+             
+              
+              </Paragraph>
+              <Paragraph style={{fontSize:18}}>
+                <li>Enhanced Social Media Integration</li>
+              
+              
+              </Paragraph>
+              <Paragraph style={{fontSize:18}}>
+                <li>Blockchain for Ticketing and Security</li>
+              
+             
+              </Paragraph>
+              <Paragraph style={{fontSize:18}}>
+              <li>Virtual and Hybrid Event Support</li>
               </Paragraph>
               <Button type="primary" href={`mailto:ugs21036_aids.vijayendher@cbit.org.in`} style={{ marginTop: '20px' }}>
               Contact Us
             </Button>
             </div>
 
-            <div style={{ marginBottom: '45px' }}>
-              <Title level={2}>Our Future Goal</Title>
-              <Paragraph>
-                We work on UI/UX and functionality to ensure that plugins come with proper
-                structure and stunning looks that suit your web app and website.
-              </Paragraph>
-              <Paragraph>
-                We take a small toolkit and use it well so that it fits your needs. We focus on
-                performance and aesthetics.
-              </Paragraph>
-              <Paragraph>
-                Here, we provide various technical content related to designing or functionality.
-                We create content in many languages and offer it for free.
-              </Paragraph>
-              <Paragraph>
-                You can also share the content you create, and if our technical team likes it, we
-                will share it on our blog.
-              </Paragraph>
-              <Paragraph>
-                In the end, keep visiting our website and enjoy the quality content.
-              </Paragraph>
+             
+              
             </div>
           </div>
         </Col>
