@@ -4,7 +4,7 @@ const Event = require('../models/EventModel');
 const upload = require('../middlewares/uploadMiddleware');
 const xlsx=require('xlsx');
 require('dotenv').config;
-const userSchema= require('../models/UserModel'); // Adjust the path as needed
+const userSchema= require('../models/UserModel'); 
 const fs = require('fs');
 const path = require('path');
 const router = express.Router();
