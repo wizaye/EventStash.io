@@ -1,0 +1,172 @@
+/* Common styles for event cards */
+.my-events-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .event-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .event-card strong {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .event-card p {
+    margin: 10px 0;
+  }
+  
+  .event-card strong.event-info {
+    font-size: 1rem;
+  }
+  
+  .event-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .event-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .event-card .edit-button,
+  .event-card .delete-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-card .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .event-card .edit-button svg,
+  .event-card .delete-button svg {
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .event-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .event-card {
+      width: 100%;
+    }
+  }
+  
+  /* Popup modal styles */
+  .popup-modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .popup-content {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+    text-align: left; /* Align content to the left */
+  }
+  
+  .popup-content p {
+    margin: 5px 0;
+  
+  }
+  
+  .popup-content strong {
+    display: inline-block; /* Display strong elements as inline-block */
+    width: 250px; /* Adjust width as needed to create space between strong and text */
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 10px; /* Add right margin for spacing */
+  }
+  
+  .popup-content img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  
+  .popup-content .delete-confirmation {
+    margin-top: 20px;
+  }
+  
+  .popup-content .delete-confirmation p {
+    margin-bottom: 10px;
+  }
+  
+  .popup-content button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .popup-content button:hover {
+    background-color: #0056b3;
+  }
+  

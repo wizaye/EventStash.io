@@ -1,0 +1,32 @@
+.create-event-container {
+    /* background: linear-gradient(to bottom right, #3498db, #2ecc71); */
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* margin: 20px; */
+  }
+  
+  .create-event-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-event-form h1 {
+    margin-bottom: 16px;
+  }
+  
+  .registration-link {
+    margin-top: 16px;
+  }
+  
+  /* Adjusting the placement of the dividers */
+  .ant-divider-horizontal.ant-divider-with-text-left {
+    margin-top: 16px;
+    margin-bottom: 32px; /* Adjust this value as needed */
+  }
+  
+  /* Add more styles as needed */
+
+  
+  

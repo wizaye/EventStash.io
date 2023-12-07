@@ -1,0 +1,57 @@
+<!-- registration-success.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Successful</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    div {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 400px; /* Adjust the max-width as needed */
+      margin: auto;
+    }
+
+    h2 {
+      color: black;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2>Registration Successful</h2>
+    <p>Thank you, <b>{{name}}!</b></p>
+    <p>You have successfully registered for <b>{{eventName}}</b> with <br/> <b>email:</b> {{email}}.</p>
+    <p>Your ticket number is <b>{{ticketNumber}}</b>.</p>
+    <p>A confirmation email has been sent to your provided email address.</p>
+    <p>Kindly check your spam/bin if email not found</p>
+    <img src="data:image/png;base64,{{qrCodeImageBase64}}" alt="QR Code" />
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url('https://img.freepik.com/free-vector/flat-geometric-background_23-2148945952.jpg?w=996&t=st=1701539597~exp=1701540197~hmac=b604433f32720b65c29cf09cd2205cf0dafa782b0f7617f9eae7250becca9357') center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .event-banner {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px; /* Adjust the max-width as needed */
+      margin: auto;
+      text-align: center;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px; /* Adjust the max-width as needed */
+      margin: auto;
+      display: none; /* Initially hide the form */
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: black;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="event-banner" id="eventBanner">
+    <!-- Display event details here, replace with dynamic content -->
+    <h2 style="color: black;" id="eventName" data-eventName="{{eventName}}">Loading...</h2>
+    <p id="eventDetails" data-eventDetails="{{eventDetails}}">Loading...</p>
+    <p id="eventId" data-eventId="{{eventId}}">Loading...hello</p>
+    <!-- End of event details -->
+
+    <!-- Register button to show the form -->
+    <button onclick="showRegistrationForm()">Register</button>
+  </div>
+  <form action="" method="post" id="registrationForm">
+    <h2 style="text-align: center; color: black;">Event Registration</h2>
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <script>
+    function showRegistrationForm() {
+      // Hide the event banner and show the registration form
+      document.getElementById('eventBanner').style.display = 'none';
+      document.getElementById('registrationForm').style.display = 'block';
+    }
+
+    // Update the DOM with the retrieved HTML content
+    document.addEventListener("DOMContentLoaded", function () {
+      // Directly access elements in the current document
+      const eventNameElement = document.getElementById('eventName');
+      const eventDetailsElement = document.getElementById('eventDetails');
+      const eventIdElement = document.getElementById('eventId');
+
+      // Get dynamic content from data attributes
+      const eventName = eventNameElement.getAttribute('data-eventName');
+      const eventDetails = eventDetailsElement.getAttribute('data-eventDetails');
+      const eventId = eventIdElement.getAttribute('data-eventId');
+
+      // Set the text content
+      eventNameElement.innerText = eventName;
+      eventDetailsElement.innerText = eventDetails;
+      eventIdElement.innerText = eventId;
+
+      // Update form action with actual event ID
+      const formAction = `https://eventstashbackend.onrender.com/register/${encodeURIComponent(eventId)}/submit`;
+      document.getElementById('registrationForm').setAttribute('action', formAction);
+    });
+  </script>
+</body>
+
+</html>
