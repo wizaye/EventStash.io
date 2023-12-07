@@ -8,7 +8,7 @@ Event Stash is an all-in-one online platform designed to streamline event manage
 
 - [@Khizar Sait](https://github.com/khizarsait)
 - [@Gatla Vijayendher ](https://github.com/wizaye)
-- [@Lokesh Kenche ](https://github.com/khizarsait)
+- [@Lokesh Kenche ](https://github.com/LokeshKenche)
 
 
 
