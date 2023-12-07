@@ -5,7 +5,7 @@ import Home from './containers/Home';
 import LoginPage from './containers/LoginPage';
 import NotFoundPage from './containers/NotFoundPage';
 import { useAuth0 } from '@auth0/auth0-react';
-import {BarLoader } from 'react-spinners'; // Import ClimbingBoxLoader
+import {BarLoader } from 'react-spinners';
 import AccessDeniedPage from './containers/AccessDeniedPage';
 
 const PrivateRoute = ({ element: Element, isAuthenticated }) => {
