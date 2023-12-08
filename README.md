@@ -34,7 +34,7 @@ If you would like to contribute to Event Stash, please follow these steps:
 
 ## Credits
 
-Event Stash was created by [Gatla Vijayendher](https://github.com/wizaye), [@Khizar Mohamed Zubair Sait](https://github.com/khizarsait), and [Lokesh Kenche](https://github.com/LokeshKenche) as a minor project for their Bachelor of Engineering in Artificial Intelligence and Data Science at Chaitanya Bharathi Institute of Technology in Hyderabad, India.
+Event Stash was created by [Gatla Vijayendher](https://github.com/wizaye), [Khizar Mohamed Zubair Sait](https://github.com/khizarsait), and [Lokesh Kenche](https://github.com/LokeshKenche) as a minor project for their Bachelor of Engineering in Artificial Intelligence and Data Science at Chaitanya Bharathi Institute of Technology in Hyderabad, India.
 
 ## License
 
