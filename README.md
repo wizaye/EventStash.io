@@ -36,6 +36,17 @@ If you would like to contribute to Event Stash, please follow these steps:
 
 Event Stash was created by [Gatla Vijayendher](https://github.com/wizaye), [Khizar Mohamed Zubair Sait](https://github.com/khizarsait), and [Lokesh Kenche](https://github.com/LokeshKenche) as a minor project for their Bachelor of Engineering in Artificial Intelligence and Data Science at Chaitanya Bharathi Institute of Technology in Hyderabad, India.
 
+## Documentation 
+The Documentation of the project can be viewed on the [Overleaf](https://www.overleaf.com/read/wvtmjqnbbjmw#6fc52a) platform .
+<div style="background-color: #ffeeba; padding: 10px; border: 1px solid #ffc107; border-radius: 5px;">
+
+**Disclaimer:**
+
+This project is provided "as is," and any expressed or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+
+[Add any additional details or specific disclaimers here if needed.]
+
+</div>
 ## License
 
 Event Stash is licensed under the [MIT License](https://opensource.org/licenses/MIT).
