@@ -22,6 +22,9 @@ To install Event Stash, follow these steps:
 
 To use Event Stash, simply navigate to the hosted website at [https://eventstash.netlify.app/](https://eventstash.netlify.app/) and create an account. From there, you can create, organize, and manage your events with ease.
 
+## Screen Shots
+![EventStash_Homepage](assets/EventStash-Homepage.png)
+
 ## Contributing
 
 If you would like to contribute to Event Stash, please follow these steps:
